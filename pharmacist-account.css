@@ -1,0 +1,365 @@
+.rectangle-div {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-steelblue);
+}
+.pharmacist-account-inner {
+  height: 1020px;
+  width: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.images-1-icon1 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.31);
+}
+.location-shop-info,
+.wrapper-images-11 {
+  height: 58px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper-images-11 {
+  width: 73px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  align-items: center;
+}
+.location-shop-info {
+  width: 443px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pharmacist-name {
+  width: 129px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.primary-button-instance-child {
+  height: 17px;
+  width: 293px;
+  position: relative;
+}
+.primary-button-instance {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.email1 {
+  align-self: stretch;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.email-wrapper {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.rectangle-icon {
+  height: 17px;
+  width: 293px;
+  position: relative;
+  min-height: 17px;
+}
+.frame-parent4 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.contact {
+  align-self: stretch;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact-wrapper {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-child1 {
+  height: 17px;
+  width: 293px;
+  position: relative;
+  min-height: 17px;
+}
+.frame-parent3,
+.frame-parent5 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent5 {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 18px;
+}
+.frame-parent3 {
+  height: 108px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-55xl);
+}
+.location {
+  align-self: stretch;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.location-wrapper {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-child2 {
+  height: 17px;
+  width: 293px;
+  position: relative;
+  min-height: 17px;
+}
+.frame-parent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.shop-name {
+  align-self: stretch;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.shop-name-wrapper {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.frame-child3 {
+  height: 17px;
+  width: 293px;
+  position: relative;
+  min-height: 17px;
+}
+.frame-parent7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 21px;
+}
+.email-contact-area-inner,
+.frame-parent2 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-76xl);
+}
+.email-contact-area-inner {
+  width: 445px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-4xl) var(--padding-79xl);
+  box-sizing: border-box;
+}
+.buttonbase-primary-hower3 {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.906);
+}
+.wrapper-buttonbase-primary3 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.value3 {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 6px;
+  left: 16px;
+  letter-spacing: 0.75px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  height: 15px;
+  min-width: 63px;
+  z-index: 1;
+}
+.primary-small-hower1 {
+  height: 32px;
+  width: 95px;
+  position: relative;
+}
+.link-to-create-account {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-8xl) 44px;
+  font-size: var(--btn-text-size);
+  color: var(--light-text-color);
+  font-family: var(--button-text);
+}
+.click-here-to {
+  margin: 0;
+  width: 444px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.alternative-account-call {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-4xl);
+  font-size: var(--font-size-xl);
+}
+.email-contact-area {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-38xl);
+}
+.email-contact-area,
+.image-container,
+.location-shop-info-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.location-shop-info-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-167xl);
+}
+.image-container {
+  width: 467px;
+  align-items: flex-start;
+  padding: var(--padding-22xl) 0 0;
+  box-sizing: border-box;
+}
+.pharmacist-account-child {
+  height: 1020px;
+  width: 109px;
+  position: relative;
+  background-color: var(--color-steelblue);
+}
+.pharmacist-account {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--body-1);
+}
+@media screen and (max-width: 975px) {
+  .image-container {
+    padding-top: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .pharmacist-account {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .email-contact-area {
+    gap: 28px 57px;
+  }
+  .location-shop-info-parent {
+    gap: 93px 186px;
+  }
+  .image-container {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .primary-button-instance {
+    flex-wrap: wrap;
+  }
+  .frame-parent3 {
+    gap: 37px 74px;
+  }
+  .frame-parent6,
+  .frame-parent7 {
+    flex-wrap: wrap;
+  }
+  .frame-parent2 {
+    gap: 47px 95px;
+  }
+  .email-contact-area-inner {
+    padding-bottom: 64px;
+    box-sizing: border-box;
+  }
+  .click-here-to {
+    font-size: var(--body-1-size);
+  }
+}

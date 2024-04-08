@@ -1,0 +1,372 @@
+.navbar-item {
+  height: 33px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.home1,
+.projects1 {
+  height: 17px;
+  position: relative;
+  display: inline-block;
+}
+.about1,
+.downloads1 {
+  align-self: stretch;
+  width: 31px;
+  position: relative;
+  display: none;
+}
+.downloads1 {
+  width: 56px;
+}
+.home-group,
+.navbar1 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.home-group {
+  display: none;
+  gap: var(--gap-sm);
+}
+.navbar1 {
+  flex: 1;
+  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+.drugs2 {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 8.5px);
+  left: 68px;
+  display: inline-block;
+  min-width: 31px;
+  z-index: 1;
+}
+.pharmacy-gps1 {
+  left: 157px;
+  min-width: 75px;
+}
+.account1,
+.delivery,
+.history1,
+.order-list1,
+.pharmacy-gps1 {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 8.5px);
+  display: inline-block;
+  z-index: 1;
+}
+.delivery {
+  left: 278px;
+  min-width: 42px;
+}
+.account1,
+.history1,
+.order-list1 {
+  right: 288px;
+  min-width: 36px;
+}
+.account1,
+.order-list1 {
+  right: 59px;
+  min-width: 51px;
+}
+.account1 {
+  right: 178px;
+  min-width: 42px;
+}
+.drugs-inner,
+.navbar-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navbar-group {
+  width: 729px;
+  justify-content: flex-start;
+  position: relative;
+}
+.drugs-inner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 57px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--caption-size);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}
+.drugs3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 77px;
+}
+.drugs-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 107px;
+}
+.search {
+  width: 71px;
+  border: 0;
+  outline: 0;
+  font-family: var(--btn-text);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 28px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  color: var(--second-text-color);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.form-control-input-style-1 {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 13px var(--padding-7xl);
+}
+.form-control-input-style-1,
+.form-group-3,
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-group {
+  flex: 1;
+  overflow: hidden;
+}
+.form-group-3 {
+  align-self: stretch;
+  width: 450px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  padding: var(--padding-21xl) 36px var(--padding-21xl) 0;
+  box-sizing: border-box;
+}
+.btn-text2 {
+  width: 52px;
+  position: relative;
+  font-size: var(--btn-text-size);
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  display: inline-block;
+  font-family: var(--btn-text);
+  color: var(--light-text-color);
+  text-align: center;
+  min-width: 52px;
+}
+.buttonbtnprimary-color3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-21xl);
+  background-color: var(--color-darkgreen);
+  border-radius: var(--br-8xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonbtnprimary-color3:hover,
+.buttonbtnprimary-color4:hover,
+.buttonbtnprimary-color5:hover,
+.buttonbtnprimary-color6:hover {
+  background-color: var(--color-forestgreen);
+}
+.btn-text3 {
+  width: 31px;
+  position: relative;
+  font-size: var(--btn-text-size);
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  display: inline-block;
+  font-family: var(--btn-text);
+  color: var(--light-text-color);
+  text-align: center;
+  min-width: 31px;
+}
+.buttonbtnprimary-color4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-21xl);
+  background-color: var(--color-darkgreen);
+  border-radius: var(--br-8xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btn-text4 {
+  width: 62px;
+  position: relative;
+  font-size: var(--btn-text-size);
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  display: inline-block;
+  font-family: var(--btn-text);
+  color: var(--light-text-color);
+  text-align: center;
+  min-width: 62px;
+}
+.buttonbtnprimary-color5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-20xl);
+  background-color: var(--color-darkgreen);
+  border-radius: var(--br-8xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btn-text5 {
+  width: 55px;
+  position: relative;
+  font-size: var(--btn-text-size);
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  display: inline-block;
+  font-family: var(--btn-text);
+  color: var(--light-text-color);
+  text-align: center;
+  min-width: 55px;
+}
+.buttonbtnprimary-color6 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-21xl);
+  background-color: var(--color-darkgreen);
+  border-radius: var(--br-8xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonbtnprimary-color-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-22xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.form-group-3-parent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-22xl);
+}
+.drugs-child,
+.form-group-3-parent,
+.frame-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent1 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: 35px;
+}
+.drugs-child {
+  width: 1332px;
+  height: 220px;
+  flex-direction: row;
+  padding: 0 56px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}
+.drugs-item {
+  align-self: stretch;
+  height: 636px;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.drugs1 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xl) 48px var(--padding-8xl);
+  box-sizing: border-box;
+  gap: 1px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .buttonbtnprimary-color-parent {
+    display: none;
+  }
+  .drugs-child {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .form-group-3-parent {
+    gap: 41px 20px;
+  }
+  .frame-parent1 {
+    gap: 17px 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home-group {
+    flex-wrap: wrap;
+  }
+  .drugs3 {
+    font-size: var(--font-size-lgi);
+  }
+  .search {
+    font-size: var(--body-1-size);
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,197 @@
+.order-list2 {
+  height: 33px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.home2,
+.projects2 {
+  height: 17px;
+  position: relative;
+  display: inline-block;
+}
+.about2,
+.downloads2 {
+  align-self: stretch;
+  width: 31px;
+  position: relative;
+  display: none;
+}
+.downloads2 {
+  width: 56px;
+}
+.home-container,
+.navbar2 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.home-container {
+  display: none;
+  gap: var(--gap-sm);
+}
+.navbar2 {
+  flex: 1;
+  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+.drugs4 {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 8.5px);
+  left: 68px;
+  display: inline-block;
+  min-width: 31px;
+  z-index: 1;
+}
+.pharmacy-gps2 {
+  left: 157px;
+  min-width: 75px;
+}
+.account2,
+.history2,
+.order-list3,
+.pharmacy-gps2,
+.rider-contact1 {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 8.5px);
+  display: inline-block;
+  z-index: 1;
+}
+.rider-contact1 {
+  left: 278px;
+  min-width: 69px;
+}
+.account2,
+.history2,
+.order-list3 {
+  right: 288px;
+  min-width: 36px;
+}
+.account2,
+.order-list3 {
+  right: 59px;
+  min-width: 51px;
+}
+.account2 {
+  right: 178px;
+  min-width: 42px;
+}
+.navbar-container,
+.orderlist-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navbar-container {
+  width: 729px;
+  justify-content: flex-start;
+  position: relative;
+}
+.orderlist-inner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.order-list4 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 124px;
+}
+.order-list-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 65px;
+  font-size: var(--font-size-5xl);
+}
+.orderlist-child {
+  align-self: stretch;
+  height: 636px;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar3 {
+  width: 63px;
+  position: relative;
+  font-size: var(--btn-text-size);
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  display: inline-block;
+  font-family: var(--btn-text);
+  color: var(--light-text-color);
+  text-align: center;
+  min-width: 63px;
+}
+.buttonbtnprimary-color7 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-20xl);
+  background-color: var(--color-darkgreen);
+  border-radius: var(--br-8xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.buttonbtnprimary-color7:hover {
+  background-color: var(--color-forestgreen);
+}
+.buttonbtnprimary-color7,
+.orderlist,
+.primary-button1 {
+  display: flex;
+  align-items: flex-start;
+}
+.primary-button1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-70xl);
+}
+.orderlist {
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-4xl) var(--padding-41xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 58px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--caption-size);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}
+@media screen and (max-width: 750px) {
+  .orderlist {
+    gap: 29px 58px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home-container {
+    flex-wrap: wrap;
+  }
+  .order-list4 {
+    font-size: var(--font-size-lgi);
+  }
+  .primary-button1 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
